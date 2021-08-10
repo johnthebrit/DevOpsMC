@@ -13,7 +13,7 @@ https://youtube.com/NTFAQGuy
 
 ## DevOps Master Class Assets
 
-[DevOps Master Class YouTube Playlist](https://www.youtube.com/playlist?list=PLlVtbbG169nGccbp8VSpAozu3w9xSQJoY   "DevOps Master Class Playlist")
+[DevOps Master Class YouTube Playlist](https://www.youtube.com/playlist?list=PLlVtbbG169nFr8RzQ4GIxUEznpNR53ERq   "DevOps Master Class Playlist")
 
 The class is designed to be viewed from start to finish in sequence as each module builds on the last. This repository provides a folder for each module. In each folder will typically find:
 
