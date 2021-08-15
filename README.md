@@ -26,7 +26,7 @@ Additionally, there are many recommended videos to watch for each module which a
 | Module | Additional Recommended Videos |
 |--|--|
 | [1 Foundation](https://youtu.be/YMdtaWfU_QE) | |
-| 2 Master Git | |
+| [2 Master Git](https://youtu.be/hQJktcBzJUs) | |
 | 3 | |
 | 4 | |
 | 5 | |
