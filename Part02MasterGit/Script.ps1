@@ -1,4 +1,4 @@
-$scratch = 'S:\scratch'
+$scratch = 'D:\scratch'
 $devopsmc = 'C:\Users\john\OneDrive\projects\GIT\DevOpsMC'
 
 #Check version
@@ -38,7 +38,8 @@ git config --list
 #Many other settings https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
 git config --global init.defaultBranch main #this is very common to use instead of master
 
-#Git Internals GI01 WB5
+#Git Internals
+#WB5
 #Create a repo again
 New-Item gitplay1 -ItemType "directory"
 Set-Location .\gitplay1
@@ -128,7 +129,7 @@ git status
 git add testfile3.txt
 code testfile.txt #make a change
 git status
-#Between what is staged and the HEAD commit (i.e. the REPO)
+#Between what is staged and the HEAD commit (i.e. the REPO). Could also use --staged which is synonym of --cached
 git diff --cached
 #And what is working to staged
 git diff
@@ -338,8 +339,8 @@ git status
 #Branches!
 #Start fresh
 cd ..
-mkdir gitplay2
-cd gitplay2
+mkdir JLRepo
+cd JLRepo
 git init
 git status
 #we see main which remember just references a commit (that won't exist yet)
@@ -376,7 +377,7 @@ gitgraph
 git checkout -c branch1
 
 #To push a branch to a remote.
-#The -u sets up tracking between local and remote branch. Allows argumentless git pull in future
+#The -u sets up tracking between local and remote branch. Allows argumentless git pull in future. Will do this later
 git push -u <remote repo, e.g. origin> <branch name>
 
 #Check which branch we are on
@@ -409,7 +410,7 @@ git status
 gitgraph
 #the branch1 is now 2 ahead but its a straight line from the main
 
-#WB17
+#WB16b
 #Now we want to merge the changes into main
 #Make sure everything clean
 git status
@@ -563,6 +564,7 @@ git commit --ament --no-edit
 git rebase -i HEAD~3
 #s to squash commits together, d to drop. Many other options
 
+#Protect a branch in github
 
 #Pull Request!
 #WB20
