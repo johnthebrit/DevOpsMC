@@ -4,7 +4,7 @@ $devopsmc = 'C:\Users\john\OneDrive\projects\GIT\DevOpsMC'
 #Check version
 git --version
 
-#Turn any folder into a repo!
+#Turn any folder into a repo which creates a sub .git folder
 git init
 git help init #to open man pages for detail or
 git init --help #to also open man page
