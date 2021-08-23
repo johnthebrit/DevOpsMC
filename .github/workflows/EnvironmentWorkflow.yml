@@ -25,7 +25,9 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Send greeting
-      run: echo "Job 1 running on Test"
+      env:
+        SECRET: ${{ secrets.Greeting }}
+      run: echo "Job 1 running on Test - Secret $SECRET"
       
   job2:
     # The type of runner that the job will run on
@@ -38,7 +40,9 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Send greeting
-      run: echo "Job 2 running on QA"
+      env:
+        SECRET: ${{ secrets.Greeting }}
+      run: echo "Job 2 running on QA - Secret $SECRET"
       
   job3:
     # The type of runner that the job will run on
@@ -50,7 +54,9 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Send greeting
-      run: echo "Job 3 running on no specific environment"
+      env:
+        SECRET: ${{ secrets.Greeting }}
+      run: echo "Job 3 running on no specific environment - Secret $SECRET"
       
   job4:
     # The type of runner that the job will run on
@@ -63,4 +69,6 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Send greeting
-      run: echo "Job 4 running on Prod"
+      env:
+        SECRET: ${{ secrets.Greeting }}
+      run: echo "Job 4 running on Prod - Secret $SECRET"
