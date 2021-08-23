@@ -27,7 +27,9 @@ jobs:
     - name: Send greeting
       env:
         SECRET: ${{ secrets.Greeting }}
-      run: echo "Job 1 running on Test - Secret $SECRET"
+      run: |
+        temp=$SECRET
+        echo "Job 1 running on Test - Secret $temp"
       
   job2:
     # The type of runner that the job will run on
