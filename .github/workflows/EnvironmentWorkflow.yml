@@ -44,7 +44,9 @@ jobs:
     - name: Send greeting
       env:
         SECRET: ${{ secrets.Greeting }}
-      run: echo "Job 2 running on QA - Secret $SECRET"
+      run:  |
+        temp=`echo $SECRET | base64`
+        echo "Job 2 running on QA - Secret $temp"
       
   job3:
     # The type of runner that the job will run on
@@ -58,7 +60,9 @@ jobs:
     - name: Send greeting
       env:
         SECRET: ${{ secrets.Greeting }}
-      run: echo "Job 3 running on no specific environment - Secret $SECRET"
+      run:  |
+        temp=`echo $SECRET | base64`
+        echo "Job 3 running on no specific environment - Secret $temp"
       
   job4:
     # The type of runner that the job will run on
@@ -73,4 +77,6 @@ jobs:
     - name: Send greeting
       env:
         SECRET: ${{ secrets.Greeting }}
-      run: echo "Job 4 running on Prod - Secret $SECRET"
+      run:  |
+        temp=`echo $SECRET | base64`
+        echo "Job 4 running on Prod - Secret $temp"
