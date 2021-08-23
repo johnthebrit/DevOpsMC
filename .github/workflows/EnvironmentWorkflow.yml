@@ -28,7 +28,7 @@ jobs:
       env:
         SECRET: ${{ secrets.Greeting }}
       run: |
-        temp=$SECRET
+        temp="-${SECRET}-"
         echo "Job 1 running on Test - Secret $temp"
       
   job2:
