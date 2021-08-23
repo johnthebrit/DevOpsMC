@@ -28,7 +28,7 @@ jobs:
       env:
         SECRET: ${{ secrets.Greeting }}
       run: |
-        temp=$SECRET | base64
+        temp=`echo $SECRET | base64`
         echo "Job 1 running on Test - Secret $temp"
       
   job2:
