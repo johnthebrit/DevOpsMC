@@ -27,7 +27,7 @@ Additionally, there are many recommended videos to watch for each module which a
 |--|--|
 | [1 Foundation](https://youtu.be/YMdtaWfU_QE) | |
 | [2 Master Git](https://youtu.be/hQJktcBzJUs) | |
-| 3 | |
+| [3 ADO and GitHub](https://youtu.be/Z9evyML2I6M) | |
 | 4 | |
 | 5 | |
 | 6 | |
