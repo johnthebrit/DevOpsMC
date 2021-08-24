@@ -56,7 +56,7 @@ jobs:
         SECRET: ${{ secrets.Greeting }}
       run:  |
         echo "Job 3 running on no specific environment"
-        if [ $SECRET = "GeneralGeneralGeneral" ]; then echo "General"; fi
+        if [ $SECRET = "RepoRepoRepo" ]; then echo "Repo"; fi
       
   job4:
     runs-on: ubuntu-latest
