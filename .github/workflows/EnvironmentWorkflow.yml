@@ -28,8 +28,8 @@ jobs:
       env:
         SECRET: ${{ secrets.Greeting }}
       run: |
-        temp=`echo $SECRET | base64`
-        echo "Job 1 running on Test - Secret $temp"
+        echo "Job 1 running on Test"
+        if [ $SECRET = "TestTestTest" ]; then echo "Test"; fi
       
   job2:
     runs-on: ubuntu-latest
@@ -42,8 +42,8 @@ jobs:
       env:
         SECRET: ${{ secrets.Greeting }}
       run:  |
-        temp=`echo $SECRET | base64`
-        echo "Job 2 running on QA - Secret $temp"
+        echo "Job 2 running on QA"
+        if [ $SECRET = "QAQAQA" ]; then echo "QA"; fi
       
   job3:
     runs-on: ubuntu-latest
@@ -55,8 +55,8 @@ jobs:
       env:
         SECRET: ${{ secrets.Greeting }}
       run:  |
-        temp=`echo $SECRET | base64`
-        echo "Job 3 running on no specific environment - Secret $temp"
+        echo "Job 3 running on no specific environment"
+        if [ $SECRET = "GeneralGeneralGeneral" ]; then echo "General"; fi
       
   job4:
     runs-on: ubuntu-latest
@@ -69,5 +69,5 @@ jobs:
       env:
         SECRET: ${{ secrets.Greeting }}
       run:  |
-        temp=`echo $SECRET | base64`
-        echo "Job 4 running on Prod - Secret $temp"
+        echo "Job 4 running on Prod"
+        if [ $SECRET = "ProdProdProd" ]; then echo "Prod"; fi
