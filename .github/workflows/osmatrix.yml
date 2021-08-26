@@ -19,4 +19,4 @@ jobs:
 
     steps:
       - name: Say hello to the OS
-        run: echo "Hello from ${{ matrix.ps }}"
+        run: echo "Hello from ${{ matrix.os }}"
