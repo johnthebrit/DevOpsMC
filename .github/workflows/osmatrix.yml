@@ -1,0 +1,22 @@
+# This is a basic workflow to help you get started with Actions
+
+name: OSMatrix
+
+# Controls when the workflow will run
+on:
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  message: #name of job
+    strategy:
+      matrix:
+        os:
+          - ubuntu-latest
+          - windows-latest
+          - macos-latest
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Say hello to the OS
+        run: echo "Hello from ${{ matrix.ps }}"
