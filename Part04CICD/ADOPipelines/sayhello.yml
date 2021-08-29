@@ -1,0 +1,52 @@
+# Starter pipeline
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+stages:
+- stage: A
+  jobs:
+  - job: A1
+    steps:
+    - script: echo Hello, world!
+      displayName: 'Run a one-line script'
+
+- stage: B
+  dependsOn: [] #Will run in parallel as removed implicit dependency
+  jobs:
+  - job: B1
+    steps:
+    - script: |
+        echo Another hello
+        echo From here!
+      displayName: 'Run a multi-line script'
+
+- stage: C
+  dependsOn:
+  - A
+  - B
+  jobs:
+  - deployment: C1
+    displayName: C1 deploy
+    environment: Test
+    strategy:
+     runOnce:
+       deploy:
+         steps:
+           - script: echo Running in the Test environment as deployment job
+             displayName: 'Test based stage'
+
+- stage: D
+  jobs:
+  - deployment: D1
+    displayName: D1 deploy
+    environment: QA
+    strategy:
+     runOnce:
+       deploy:
+         steps:
+           - script: echo Running in the QA environment as deployment job
+             displayName: 'QA based stage'
