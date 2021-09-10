@@ -28,6 +28,7 @@ jobs:
     - name: Dumb thing to do with a secret
       env:
         SECRET: ${{ steps.getKeyVaultSecrets.outputs.Secret1 }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         echo "Can I see $SECRET"
         if [ $SECRET = "Password" ]; then echo "That is a match"; fi
