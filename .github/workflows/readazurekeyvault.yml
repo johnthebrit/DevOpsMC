@@ -5,7 +5,7 @@ name: ReadAzureKeyVault
 
 jobs:
 
-  build-and-deploy:
+  login-and-read-secret:
     runs-on: ubuntu-latest
     steps:
     - name: Check out the repo
@@ -30,3 +30,4 @@ jobs:
         SECRET: ${{ steps.getKeyVaultSecrets.outputs.Secret1 }}
       run: |
         echo "Can I see $SECRET"
+        if [ $SECRET = "Password" ]; then echo "That is a match"; fi
