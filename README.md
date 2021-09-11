@@ -1,5 +1,7 @@
 # Repository for John Savill's DevOps Master Class #
 
+Testing something out!
+
 <a href="https://youtube.com/NTFAQGuy" rel="YouTube Channel">![DevOps Master Class](/Images/logosmall.png)</a>
 
 This is the repository for the materials related to the DevOps Master Class
