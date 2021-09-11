@@ -2,6 +2,8 @@
 
 Testing something out!
 
+Now I am trying something out!
+
 <a href="https://youtube.com/NTFAQGuy" rel="YouTube Channel">![DevOps Master Class](/Images/logosmall.png)</a>
 
 This is the repository for the materials related to the DevOps Master Class
