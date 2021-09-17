@@ -25,11 +25,11 @@ Additionally, there are many recommended videos to watch for each module which a
 
 | Module | Additional Recommended Videos |
 |--|--|
-| - [ ] [1 Foundation](https://youtu.be/YMdtaWfU_QE) | |
-| - [ ] [2 Master Git](https://youtu.be/hQJktcBzJUs) | |
-| - [ ] [3 ADO and GitHub](https://youtu.be/Z9evyML2I6M) | |
-| - [ ] [4 CI/CD](https://youtu.be/nLRHV2sRTe8) | [GitHub Actions Azure Deploy](https://youtu.be/FeSMRFkaRIU)|
-| - [ ] [5 Secrets](https://youtu.be/b5F0WuTISAE) |[Managed Identity Overview](https://youtu.be/FeSMRFkaRIU)<br>[Unattended Authentication](https://youtu.be/7VMPtrqCehE)<br>[Azure Key Vault Deep Dive](https://youtu.be/kP7KpfToMkg)<br>[Azure Key Vault Auth Options](https://youtu.be/oYzFWOrZMKc) |
+| [1 Foundation](https://youtu.be/YMdtaWfU_QE) | |
+| [2 Master Git](https://youtu.be/hQJktcBzJUs) | |
+| [3 ADO and GitHub](https://youtu.be/Z9evyML2I6M) | |
+| [4 CI/CD](https://youtu.be/nLRHV2sRTe8) | [GitHub Actions Azure Deploy](https://youtu.be/FeSMRFkaRIU)|
+| [5 Secrets](https://youtu.be/b5F0WuTISAE) |[Managed Identity Overview](https://youtu.be/FeSMRFkaRIU)<br>[Unattended Authentication](https://youtu.be/7VMPtrqCehE)<br>[Azure Key Vault Deep Dive](https://youtu.be/kP7KpfToMkg)<br>[Azure Key Vault Auth Options](https://youtu.be/oYzFWOrZMKc) |
 | 6 | |
 | 7 | |
 | 8 | |
