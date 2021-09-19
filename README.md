@@ -30,9 +30,9 @@ Additionally, there are many recommended videos to watch for each module which a
 | [3 ADO and GitHub](https://youtu.be/Z9evyML2I6M) | |
 | [4 CI/CD](https://youtu.be/nLRHV2sRTe8) | [GitHub Actions Azure Deploy](https://youtu.be/FeSMRFkaRIU)|
 | [5 Secrets](https://youtu.be/b5F0WuTISAE) |[Managed Identity Overview](https://youtu.be/FeSMRFkaRIU)<br>[Unattended Authentication](https://youtu.be/7VMPtrqCehE)<br>[Azure Key Vault Deep Dive](https://youtu.be/kP7KpfToMkg)<br>[Azure Key Vault Auth Options](https://youtu.be/oYzFWOrZMKc) |
-| 6 | |
-| 7 | |
-| 8 | |
+| [6 Infrastructure as Code](link) | [Imperative vs Declarative](https://youtu.be/scH6M1oRucA)<br>[Terraform with Azure](https://youtu.be/JKVkblsp3cM)<br>[Project Bicep Overview](https://youtu.be/_yvb6NVx61Y)<br>[GitHub Actions Azure Deploy](https://youtu.be/FeSMRFkaRIU)<br>[Azure Naming Convention](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)<br>[Azure Tagging](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-tagging)|
+| 7 Containers | |
+| 8 Monitoring | |
 
 ## Getting a Clone
 Once Git is installed to have a local clone of the repository:
