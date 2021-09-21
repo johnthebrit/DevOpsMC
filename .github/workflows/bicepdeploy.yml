@@ -24,4 +24,4 @@ jobs:
         subscriptionId: ${{ secrets.AZURE_SUB_ID }}
         resourceGroupName: RG_PolicyTest
         template: ./Part06IaC/storageaccount.bicep
-        parameters: ./Part06IaC/storageaccount-dev.bad.parameters.json
+        parameters: ./Part06IaC/storageaccount-dev.parameters.json
