@@ -1,5 +1,5 @@
 ﻿#region Windows Containers
-#Requires Windows Containers
+#This demo requires Windows Containers
 docker run -it mcr.microsoft.com/windows/servercore cmd.exe
 docker run -it --name demo1 -v C:\containerdata:c:\data mcr.microsoft.com/windows/servercore cmd.exe
 
