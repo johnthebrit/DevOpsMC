@@ -13,7 +13,7 @@ docker pull mcr.microsoft.com/windows/servercore/iis:windowsservercore-ltsc2022 
 docker image history mcr.microsoft.com/windows/servercore/iis
 
 #Quick image
-cd badfather
+Set-Location badfather
 docker build -t badfather .
 
 #Windows examples
@@ -40,7 +40,7 @@ docker start $dockid
 docker stop $dockid
 docker rm $dockid
 
-cd badfatherapache
+Set-Location badfatherapache
 docker build -t badfather .
 docker history badfather
 docker images
