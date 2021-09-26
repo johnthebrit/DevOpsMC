@@ -28,8 +28,8 @@ docker rmi badfather
 docker images
 docker search --filter is-official=true httpd
 docker pull httpd
-docker image history httpd
-docker image inspect httpd
+docker image history httpd #view the layers
+docker image inspect httpd #detailed info about image
 docker run --name httpdrun -dit httpd bash
 
 #list containers
