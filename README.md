@@ -32,7 +32,7 @@ Additionally, there are many recommended videos to watch for each module which a
 | [5 Secrets](https://youtu.be/b5F0WuTISAE) |[Managed Identity Overview](https://youtu.be/1NOZv2M3q2k)<br>[Unattended Authentication](https://youtu.be/7VMPtrqCehE)<br>[Azure Key Vault Deep Dive](https://youtu.be/kP7KpfToMkg)<br>[Azure Key Vault Auth Options](https://youtu.be/oYzFWOrZMKc) |
 | [6 Infrastructure as Code](https://youtu.be/8AgEwM8RhAU) | [Imperative vs Declarative](https://youtu.be/scH6M1oRucA)<br>[Terraform with Azure](https://youtu.be/JKVkblsp3cM)<br>[Project Bicep Overview](https://youtu.be/_yvb6NVx61Y)<br>[GitHub Actions Azure Deploy](https://youtu.be/FeSMRFkaRIU)<br>[Azure Naming Convention](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)<br>[Azure Tagging](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-tagging)|
 | [7 Containers & Friends](https://youtu.be/r6YIlPEC4y4) | [AKS Networking Deep Dive](https://youtu.be/6TZsd4toIbg)<br>[AKS High Availaiblity](https://youtu.be/gksFrKiZjMc) |
-| 8 Monitoring | |
+| [8 Monitoring & Feedback](https://youtu.be/ypT4S17kiJw) | [Azure Monitoring](https://youtu.be/hTS8jXEX_88) |
 
 ## Getting a Clone
 Once Git is installed to have a local clone of the repository:
