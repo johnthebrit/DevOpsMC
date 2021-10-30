@@ -27,7 +27,7 @@ Additionally, there are many recommended videos to watch for each module which a
 |--|--|
 | [1 Foundation](https://youtu.be/YMdtaWfU_QE) | |
 | [2 Master Git](https://youtu.be/hQJktcBzJUs) | |
-| [3 ADO and GitHub](https://youtu.be/Z9evyML2I6M) | |
+| [3 ADO and GitHub](https://youtu.be/Z9evyML2I6M) | [VS Code in the browser](https://youtu.be/OyZyImXt4fc) |
 | [4 CI/CD](https://youtu.be/nLRHV2sRTe8) | [GitHub Actions Azure Deploy](https://youtu.be/FeSMRFkaRIU)|
 | [5 Secrets](https://youtu.be/b5F0WuTISAE) |[Managed Identity Overview](https://youtu.be/1NOZv2M3q2k)<br>[Unattended Authentication](https://youtu.be/7VMPtrqCehE)<br>[Azure Key Vault Deep Dive](https://youtu.be/kP7KpfToMkg)<br>[Azure Key Vault Auth Options](https://youtu.be/oYzFWOrZMKc) |
 | [6 Infrastructure as Code](https://youtu.be/8AgEwM8RhAU) | [Imperative vs Declarative](https://youtu.be/scH6M1oRucA)<br>[Terraform with Azure](https://youtu.be/JKVkblsp3cM)<br>[Project Bicep Overview](https://youtu.be/_yvb6NVx61Y)<br>[GitHub Actions Azure Deploy](https://youtu.be/FeSMRFkaRIU)<br>[Azure Naming Convention](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)<br>[Azure Tagging](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-tagging)|
