@@ -1,0 +1,13 @@
+resources
+| where type == "microsoft.logic/workflows"
+| where resourceGroup == tolower("mediaprep_group")
+| where properties contains "recurrence"
+| extend state = properties.state
+| extend trigger = properties.definition.triggers
+| extend triggerType = properties.definition.triggers.Recurrence.type
+| where isnotnull(triggerType)
+| extend startTime = properties.definition.triggers.Recurrence.recurrence.starttime
+| extend frequency = properties.definition.triggers.Recurrence.recurrence.frequency
+| extend interval = properties.definition.triggers.Recurrence.recurrence.interval
+| extend timeZone = properties.definition.triggers.Recurrence.recurrence.timeZone
+| project name, state, startTime, frequency, interval, timeZone
