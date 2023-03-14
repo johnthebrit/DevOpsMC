@@ -1,4 +1,4 @@
-$scratch = 'D:\scratch'
+$scratch = 's:\scratch'
 $devopsmc = 'C:\Users\john\OneDrive\projects\GIT\DevOpsMC'
 
 #Check version
